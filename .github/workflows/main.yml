@@ -20,5 +20,5 @@ jobs:
           #CUSTOM_DOMAIN: docs.gyroflow.xyz
           CONFIG_FILE: mkdocs.yml
           EXTRA_PACKAGES: build-base
-          GITHUB_DOMAIN: lite-paper.kofi-network.github.io
+          #GITHUB_DOMAIN: github.io
           REQUIREMENTS: requirements.txt
