@@ -1,0 +1,40 @@
+site_name: KOFI Network
+
+theme:
+  custom_dir: 'theme'
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: dark)" 
+
+      scheme: default
+      toggle:
+        icon: material/eye-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: light)" 
+
+      scheme: slate
+      toggle:
+        icon: material/eye
+        name: Switch to light mode
+
+nav:
+    - Home: 'index.md'
+    - 'Executive Summary': 'executive-summary.md'
+    - 'Project Background': 'project-background.md'
+    - 'KOFI Features': 'kofi-features.md'
+    - 'KOFI Benefits': "kofi-benefits.md"
+    - 'Technology & Innovation': 'technology-innovation.md'
+    - 'Turn-Based Games':
+        - 'Overview': 'turn-based-games/overview.md'
+        - 'Industry Description': 'turn-based-games/industry-description.md'
+        - 'Popular Turn-Based Games': 'turn-based-games/popular.md'
+        - 'Trends': 'turn-based-games/trends.md'
+    - 'Crypto Conditions':
+        - 'Overview': 'cryptoconditions/overview.md'
+        - 'Gateways': 'cryptoconditions/gateways.md'
+        - 'Tokens': 'cryptoconditions/tokens.md'
+        - 'Rewards': 'cryptoconditions/rewards.md'
+        - 'Channels': 'cryptoconditions/channels.md'
+    - 'KOFI Game Asset Trader':
+        - 'Overview': 'game-asset-trader/overview.md'
+
